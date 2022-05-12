@@ -61,3 +61,10 @@ gem 'simple_form'
 gem 'faker'
 gem 'devise'
 gem 'friendly_id'
+gem 'ransack'
+gem 'public_activity'
+gem "rolify"
+gem "pundit", "~> 2.2"
+gem 'exception_notification'
+gem 'pagy'
+gem 'omniauth-google-oauth2' #sign in with google

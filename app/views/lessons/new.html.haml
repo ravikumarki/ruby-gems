@@ -1,0 +1,23 @@
+- content_for :title do
+  Corsego 
+  \/
+  Course
+  = @course.title
+  \/
+  New lesson
+= link_to 'Courses', courses_path
+\/
+= link_to @course.title, course_path(@course)
+\/
+new lesson
+%p
+
+.card
+  .card-header
+    %h3
+      .far.fa-check-square
+      New lesson
+  .card-body
+    = render 'form'
+  .card-footer
+    = link_to 'Back to course', course_path(@course)
